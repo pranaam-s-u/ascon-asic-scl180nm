@@ -143,20 +143,20 @@ The next phase of the project involves **post-silicon functional validation and 
 
 ```text
 .
+ascon-asic-scl180nm/
+│
 ├── README.md
-├── docs/
-│   └── design_documentation/
+│
 ├── rtl/
-│   └── permitted_RTL_files/
+│   └── [ASCON Verilog source files you are allowed to share]
+│
 ├── verification/
+│   ├── testbench/
 │   └── simulation_results/
-├── synthesis/
-│   ├── scripts/
-│   └── reports/
-├── physical_design/
-│   ├── scripts/
-│   └── reports/
+│
 └── images/
+    ├── rtl_simulation/
+    ├── gls/
     ├── floorplan/
     ├── placement/
     ├── cts/
