@@ -151,13 +151,12 @@ ascon-asic-scl180nm/
 │   └── [ASCON Verilog source files you are allowed to share]
 │
 ├── verification/
-│   ├── testbench/
-│   └── simulation_results/
+│   └── testbench/
+│   
 │
 └── images/
     ├── rtl_simulation/
-    ├── gls/
-    ├── floorplan/
+    ├── floorplan_and_sroute/
     ├── placement/
     ├── cts/
     ├── routing/
